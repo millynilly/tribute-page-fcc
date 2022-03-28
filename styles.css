@@ -1,0 +1,89 @@
+body {
+    font-family: 'Red Hat Mono', sans-serif;
+    font-size: 16px;
+}
+
+main {
+    max-width: 960px;
+    margin: 48px auto;
+}
+
+h1, h2, .quote {
+    font-weight: 400;
+    font-family: 'Reenie Beanie', sans-serif; }
+
+#tribute-info {
+    font-size: 30px;
+    font-family: 'Reenie Beanie', sans-serif; }
+
+h1, #tribute-info { text-align: center; }
+
+img {
+    display: block;
+    max-width: 400px;
+}
+
+.small { max-width: 200px; }
+
+.img-div {
+    max-width: 400px;
+    margin: 48px auto;
+}
+
+.img-small {
+    max-width: 200px;
+}
+
+#img-row {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 48px auto;
+}
+
+.caption {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.quote {
+    font-size: 36px;
+    text-align: center;
+    padding: 0 50px;
+}
+
+a { text-decoration: none; }
+
+#info {
+    width: 360px;
+    border: 1px solid darkgray;
+    margin: 48px auto;
+    padding: 24px 48px;
+    border-top-right-radius: 280px;
+}
+
+#credits {
+    max-width: 600px;
+    margin: 48px auto;
+    border-top: 1px solid darkgray;
+}
+
+#fcc-link { text-align: center; }
+
+ul { list-style-type: none; }
+
+@media (min-width: 624px) {
+
+    #double-img {
+        display: flex;
+        gap: 24px;
+        max-width: 624px;
+        margin: 24px auto;
+    }
+    #double-img div, #double-img img {
+        width: 300px;
+    }
+
+}
